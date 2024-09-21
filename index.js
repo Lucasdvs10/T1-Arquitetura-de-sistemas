@@ -39,4 +39,4 @@ async function weatherByName(cityName) {
 
 }
 
-weatherByName("Manaus").then(data => console.log(data))
+weatherByName(process.argv[2]).then(data => console.log(data))
